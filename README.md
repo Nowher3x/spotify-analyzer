@@ -1,32 +1,38 @@
-🎵 Spotify Tracks Analyzer
+# 🎵 Spotify Tracks Analyzer
+
+[![Python](https://img.shields.io/badge/Python-3.11-blue)](https://www.python.org/) 
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 A Python project to analyze Spotify tracks dataset and visualize insights about genres and track popularity.
 
-📊 Example Outputs
-🎼 Top 10 genres by total popularity
+---
 
-📈 Popularity distribution
+## 📊 Example Outputs
 
-🚀 Features
+### 🎼 Top 10 genres by total popularity
+![Top genres](images/top_genres.png)
 
-📊 Top 10 genres by total popularity
+### 📈 Popularity distribution
+![Popularity distribution](images/popularity_distribution.png)
 
-📈 Popularity distribution histogram
+---
 
-💾 Automatically saves graphs as PNG
+## 🚀 Features
+- **Top 10 genres by total popularity**
+- **Popularity distribution histogram**
+- **Automatically saves graphs as PNG**
+- **Clean modular project structure**
 
-📦 Clean modular project structure
+---
 
-📦 Project Structure
-bash
-Copy
-Edit
+## 📦 Project Structure
+```text
 spotify-analyzer/
-├── data/                      # Raw dataset (not included in repo)
+├── data/                      # Raw dataset (not included)
 ├── images/                    # Saved graphs
 │   ├── top_genres.png
 │   └── popularity_distribution.png
-├── src/                       # Source code
+├── src/
 │   └── analyzer.py
 ├── .gitignore
 ├── README.md
@@ -41,7 +47,7 @@ Edit
 git clone https://github.com/<your-username>/spotify-analyzer.git
 cd spotify-analyzer
 python -m venv .venv
-.venv\Scripts\activate  # On Windows
+.venv\Scripts\activate   # On Windows
 source .venv/bin/activate  # On Linux/Mac
 pip install -r requirements.txt
 ▶️ Usage
@@ -70,10 +76,3 @@ matplotlib
 
 📜 License
 This project is licensed under the MIT License. See LICENSE for details.
-
-✅ Next Steps
- Add CLI options (choose which graph to generate)
-
- Expand analysis (artist popularity, release years, etc.)
-
- Dockerize for easier deployment
