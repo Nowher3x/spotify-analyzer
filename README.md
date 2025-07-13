@@ -26,7 +26,7 @@ A Python project to analyze Spotify tracks dataset and visualize insights about 
 ---
 
 ## 📦 Project Structure
-```text
+
 spotify-analyzer/
 ├── data/                      # Raw dataset (not included)
 ├── images/                    # Saved graphs
